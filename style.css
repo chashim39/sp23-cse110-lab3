@@ -103,6 +103,16 @@ h1, h6{
     font-style: oblique;
 }
 
+/*Meeting Visuals*/
+.meetingvisuals h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blueviolet;
+}
+
+.meetingvisuals a {
+    font-style: italic;
+}
+
 /*Feedback Survey*/
 form {
     background-color: aliceblue;

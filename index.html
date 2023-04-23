@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>Meeting Minutes</title>
     <link rel="icon" type="image/png" href="images/favicon.png"/>
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
     <main>
@@ -20,7 +21,7 @@
                 <h3>4/16/2023</h3>
             </div>
         </header>
-        <section>
+        <div class="sections"> <!--Sections-->
             <h2>Sections:</h2>
             <nav>
                 <ul>
@@ -33,8 +34,8 @@
                     <li><a href="#meetingaudio">Meeting Audio</a></li>
                 </ul>
             </nav>
-        </section>
-        <section> <!--Attendance-->
+        </div>
+        <div class="attendance"> <!--Attendance-->
             <h2 id="attendance">Attendance</h2>
             <h4>Present</h4>
             <ol>
@@ -48,8 +49,8 @@
                 <li>Bryan Doe</li>
                 <li>Blake Doe</li>
             </ol>
-        </section>
-        <section> <!--Agenda-->
+        </div>
+        <div class="agenda"> <!--Agenda-->
             <h2 id="agenda">Agenda</h2>
             <details>
                 <summary>Show More</summary>
@@ -61,34 +62,34 @@
                         <li>Cat Video Of The Week</li>
                     </ol>
             </details>
-        </section>
-        <section> <!--Unfinished Business-->
+        </div>
+        <div class="unfinishedbusiness"> <!--Unfinished Business-->
             <h2 id="unfinishedbusiness">Unfinished Business</h2>
             <p><b>Water Cooler: </b>At the last meeting, we began discussions about adding a water cooler in the break room. Everyone except Bryan likes the idea of
             getting a water cooler except for Bryan, except he is not present for this meeting so we will need to put a pin in it for now.</p>
             <p><b>Workstations: </b>John and Chris want to get new <em>custom built</em> workstations for the office citing that they will increase productivity over our
             current laptops. Everyone is now in agreement so sending the bill over to Jake in finance.</p>
-        </section>
-        <section> <!--New Business-->
+        </div>
+        <div class="newbusiness"> <!--New Business-->
             <h2 id="newbusiness">New Business</h2>
             <p><b>News Coverage: </b>CNN <strong>AND</strong> Fox News want to interview our company asking about our success. Sending Jane and Blake to their media centers for interviews.</p>
             <p><b>New Feature (Budget): </b>Wanting to add a budget building section to help users budget their finances better in the same place as the rest of the content in app.</p>
             <p><b>New Feature (Recipe): </b>Wanting to add a recipe building section to help users keep track of their favorite recipes in the same place as the rest of the content in app.<br>
             Greenlight given to start working on both features.</p>
-        </section>
-        <section>   <!--Meeting Visuals-->
+        </div>
+        <div class="meetingvisuals">   <!--Meeting Visuals-->
             <h2 id="meetingvisuals">Meeting Visuals</h2>
             <a href="https://www.youtube.com/shorts/5XgiSVeH1mE">Cat Video Of The Week</a>
-        </section>
-        <section> <!--Meeting Video-->
+        </div>
+        <div class="meetingvideo"> <!--Meeting Video-->
             <h2 id="meetingvideo">Meeting Video</h2>
             <video controls src="images/IMG_1831.mp4" width="640" height="360"></video>
-        </section>
-        <section> <!--Meeting Audio-->
+        </div>
+        <div class="meetingaudio"> <!--Meeting Audio-->
             <h2 id="meetingaudio">Meeting Audio</h2>
             <audio controls src="images/IMG_1831.mp3"></audio>
-        </section>
-        <section>
+        </div>
+        <div class="survey">
             <h2>Feedback Survey</h2>
             <p>Answer some questions below to give anonymous feedback about how you think the meeting went:</p>
             <form>
@@ -142,7 +143,7 @@
                     <button type="button" onclick="alert('Form Submitted')">Submit</button>
                 </fieldset>
             </form>
-        </section>
+        </div>
         <footer>
             <h6><i>Notes taken by Chris Doe</i></h6>
         </footer>

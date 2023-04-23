@@ -1,14 +1,17 @@
-#Stand Up Notes
+# Stand Up Notes
 --------------------------
 
-##Who:
+## Who:
 
-#[Insert Name Here]
+### [Insert Name Here]
+--------------------------
 
-##What they did since last meeting:
+## What they did since last meeting:
 
-#[Insert Task Here]
+### [Insert Task Here]
+--------------------------
 
-##What they will do after this meeting:
+## What they will do after this meeting:
 
-#[Insert Task Here]
+### [Insert Task Here]
+--------------------------

@@ -1,5 +1,9 @@
-h1 {
+h1, h6{
     color: royalblue;
+}
+
+[attribute=h5] {
+    color: rgb(150,75,0);
 }
 
 /*Sections*/
@@ -57,7 +61,7 @@ h1 {
 
 .attendance ol#absent {
     display: grid;
-    grid-template-columns: repeat(4, 30px [col-start]);
+    grid-template-columns: repeat(4, 100px [col-start]);
     grid-template-rows: repeat(4, 30px [col-start]);
     column-gap: 10px;
     row-gap: 10px;
@@ -66,6 +70,17 @@ h1 {
 .attendance li {
     min-width: none;
     max-width: none;
+}
+
+/*Agenda*/
+.agenda ol li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: magenta;
+}
+
+.agenda h2 {
+    font-style: italic;
+    color: brown;
 }
 
 /*Feedback Survey*/

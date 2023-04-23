@@ -83,6 +83,16 @@ h1, h6{
     color: brown;
 }
 
+/*Unfinished Business*/
+.unfinishedbusiness h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aquamarine;
+}
+
+.unfinishedbusiness p {
+    font-style: oblique;
+}
+
 /*Feedback Survey*/
 form {
     background-color: aliceblue;
